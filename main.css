@@ -7,7 +7,7 @@
     --secondary-color: #fff;
 }
 
-.html.dark {
+html.dark {
     --primary-color: #fff;
     --secondary-color : #333;
 }
@@ -104,18 +104,17 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-30%, -50%);
+    transform: translate(-50%, -50%);
     border-radius: 50%;
 }
 
 
 .time {
     font-size: 60px;
-    color: var(--secondary-color);
 }
 
 .date {
-    color: #aaa;
+    /* color: #aaa; */
     font-size: 14px;
     letter-spacing: 0.3px;
     text-transform: uppercase;
